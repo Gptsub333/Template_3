@@ -1,0 +1,326 @@
+{
+    "navbar": {
+      "brand": {
+        "icon": "⊞",
+        "text": "TASK MASTER"
+      },
+      "links": [
+        { "text": "Features", "href": "#features" },
+        { "text": "How It works", "href": "#how-it-works" },
+        { "text": "Pricing", "href": "#pricing" },
+        { "text": "About Us", "href": "#about" },
+        { "text": "Contact", "href": "#contact" }
+      ],
+      "button": {
+        "text": "Get Started",
+        "href": "/get-started"
+      }
+    },
+    
+      "hero": {
+        "title": "Stay Organized, Stay Ahead.",
+        "arrowIcon": "↗",
+        "subtitle": "ChronoTask helps you manage your tasks and time effectively, giving you the control to focus on what truly matters.",
+        "buttons": [
+          {
+            "text": "Get Started for Free",
+            "type": "primary"
+          },
+          {
+            "text": "Learn More",
+            "type": "secondary"
+          }
+        ]
+      },
+      "dashboard": {
+    "todayTasks": [
+      {
+        "title": "Delivery App Kit",
+        "description": "We got a project to make a delivery UI kit called Foodnow...",
+        "progress": 65,
+        "members": 2
+      },
+      {
+        "title": "E-Commerce Dashboard",
+        "description": "Developing an advanced dashboard for e-commerce tracking...",
+        "progress": 80,
+        "members": 4
+      },{
+        "title": "Delivery App Kit",
+        "description": "We got a project to make a delivery UI kit called Foodnow...",
+        "progress": 65,
+        "members": 2
+      }
+    ]
+  },
+  "kanbanBoard": {
+    "columns": [
+      {
+        "title": "Backlog",
+        "count": 12,
+        "icon": "🔮",
+        "tasks": [
+          { "title": "Logo Options", "label": "Branding" },
+          { "title": "Solutions Pages", "label": "UI/UX" }
+        ]
+      },
+      {
+        "title": "To Do",
+        "count": 8,
+        "icon": "⭕",
+        "tasks": [
+          { "title": "Landing Page", "label": "Web Design" },
+          { "title": "Order Flow", "label": "UX Improvement" }
+        ]
+      },
+      {
+        "title": "In Progress",
+        "count": 6,
+        "icon": "🛠️",
+        "tasks": [
+          { "title": "Web Mockup", "label": "Graphics" },
+          { "title": "POS Dashboard", "label": "Dashboard" }
+        ]
+      },
+      {
+        "title": "Done",
+        "count": 5,
+        "icon": "✅",
+        "tasks": [
+          { "title": "Homepage", "label": "Web Design" },
+          { "title": "Brand Guide", "label": "Graphics" }
+        ]
+      }
+    ]
+  },
+    "benefits": {
+      "label": "Benefit",
+      "title": "Why Choose ChronoTask?",
+      "cards": [
+        {
+          "icon": "📈",
+          "title": "Boost Productivity",
+          "description": "Get more done in less time with streamlined task flows that simplify project management and enhance team efficiency.",
+          "variant": "primary"
+        },
+        {
+          "icon": "📚",
+          "title": "Stay Organized",
+          "description": "Centralize your tasks, projects, and communications in one intuitive dashboard to maintain clarity and focus.",
+          "variant": "secondary"
+        },
+        {
+          "icon": "🌐",
+          "title": "Work Anywhere",
+          "description": "Access your projects seamlessly from desktop, mobile, or tablet—empowering you to stay connected on the go.",
+          "variant": "secondary"
+        }
+      ]
+    },
+      "keyFeatures": {
+        "label": "Key Features",
+        "title": "Everything You Need to\nStay on Track.",
+        "features": [
+          {
+            "title": "Task Management",
+            "description": "Create, organize, and prioritize tasks effortlessly to achieve your goals faster, ensuring every detail is captured and managed efficiently.",
+            "image": "/placeholder.svg?height=300&width=400",
+            "type": "job-cards"
+          },
+          {
+            "title": "Time Tracking",
+            "description": "Monitor progress and ensure deadlines are met with integrated time-tracking tools that provide valuable insights into your workflow.",
+            "image": "/placeholder.svg?height=300&width=400",
+            "type": "meeting"
+          },
+          {
+            "title": "Integration",
+            "description": "Seamlessly connect with your favorite tools like Slack, Google Drive, and more to enhance productivity and simplify your processes.",
+            "icons": [
+              { "src": "/placeholder.svg?height=40&width=40", "alt": "Microsoft" },
+              { "src": "/placeholder.svg?height=40&width=40", "alt": "Google Drive" },
+              { "src": "/placeholder.svg?height=40&width=40", "alt": "Figma" },
+              { "src": "/placeholder.svg?height=40&width=40", "alt": "Vimeo" },
+              { "src": "/placeholder.svg?height=40&width=40", "alt": "Slack" }
+            ]
+          },
+          {
+            "title": "Collaboration",
+            "description": "Create, organize, and prioritize tasks effortlessly to achieve your goals faster, ensuring every detail is captured and managed efficiently.",
+            "avatars": [
+              { "src": "/placeholder.svg?height=48&width=48", "alt": "Team member 1" },
+              { "src": "/placeholder.svg?height=48&width=48", "alt": "Team member 2" },
+              { "src": "/placeholder.svg?height=48&width=48", "alt": "Team member 3" }
+            ]
+          }
+        ]
+      },
+      
+        "pricing": {
+          "label": "Pricing",
+          "title": "Find the Right Plan for You",
+          "plans": [
+            {
+              "name": "Free Plan",
+              "description": "Perfect for individuals and small projects.",
+              "price": "0",
+              "buttonText": "Start Free Trial",
+              "features": [
+                "Limited task management tools.",
+                "Basic collaboration features.",
+                "Access via desktop and mobile apps.",
+                "Up to 5 active projects.",
+                "Email notifications for task updates.",
+                "Basic reporting for task completion."
+              ],
+              "variant": "default"
+            },
+            {
+              "name": "Pro Plan",
+              "description": "Perfect for individuals and small projects.",
+              "price": "10",
+              "buttonText": "Upgrade to Pro",
+              "features": [
+                "Advanced task management tools.",
+                "Team collaboration.",
+                "Integrations with Slack, Google Drive, and more.",
+                "Unlimited projects and storage.",
+                "Customizable workflows and templates.",
+                "Priority customer support."
+              ],
+              "variant": "primary"
+            },
+            {
+              "name": "Enterprise Plan",
+              "description": "Custom solutions for large organizations.",
+              "price": "Custom",
+              "buttonText": "Contact Us",
+              "features": [
+                "Full customization of features and branding.",
+                "Dedicated account manager and 24/7 support.",
+                "Advanced analytics and reporting tools.",
+                "Role-based access controls for teams.",
+                "Single Sign-On (SSO) for secure logins.",
+                "Data export and migration support."
+              ],
+              "variant": "default"
+            }
+          ]
+        },
+          "testimonials": {
+            "label": "Testimonials",
+            "title": "What Our Users Say",
+            "data": [
+              {
+                "name": "Jane D.",
+                "role": "Project Manager",
+                "avatar": "/placeholder.svg?height=48&width=48",
+                "content": "ChronoTask has completely transformed how our team collaborates. The time tracking and task management features have significantly improved our efficiency.",
+                "timestamp": "10:20 AM - Dec 2, 2024"
+              },
+              {
+                "name": "Michael B.",
+                "role": "Freelancer",
+                "avatar": "/placeholder.svg?height=48&width=48",
+                "content": "The clean interface and seamless integrations make it so easy to manage my projects across platforms. I can't imagine working without it!",
+                "timestamp": "10:20 AM - Dec 2, 2024"
+              },
+              {
+                "name": "Emily R.",
+                "role": "Small Business Owner",
+                "avatar": "/placeholder.svg?height=48&width=48",
+                "content": "ChronoTask has completely transformed how our team collaborates. The time tracking and task management features have significantly improved our efficiency.",
+                "timestamp": "10:20 AM - Dec 2, 2024"
+              },
+              {
+                "name": "David L.",
+                "role": "Marketing Specialist",
+                "avatar": "/placeholder.svg?height=48&width=48",
+                "content": "The integration with Slack and Google Drive is a game-changer. I can manage everything in one place without switching between tools.",
+                "timestamp": "10:20 AM - Dec 2, 2024"
+              },
+              {
+                "name": "Sophia K.",
+                "role": "Entrepreneur",
+                "avatar": "/placeholder.svg?height=48&width=48",
+                "content": "ChronoTask is like having a personal assistant for my business. It's intuitive and keeps me organized, no matter how busy I am.",
+                "timestamp": "10:20 AM - Dec 2, 2024"
+              }
+            ]
+          },
+          
+            "faq": {
+              "label": "FAQs",
+              "title": "Got any Questions?",
+              "faqs": [
+                {
+                  "question": "Is there a free version of ChronoTask?",
+                  "answer": "Yes, ChronoTask offers a free plan with essential features for individuals and small projects. You can start using the basic features without any cost."
+                },
+                {
+                  "question": "Can I integrate other tools with ChronoTask?",
+                  "answer": "Yes, ChronoTask integrates seamlessly with popular tools like Slack, Google Drive, and other productivity applications to enhance your workflow."
+                },
+                {
+                  "question": "Is ChronoTask available on mobile devices?",
+                  "answer": "Yes, ChronoTask is available on both iOS and Android devices, allowing you to manage your tasks on the go with our mobile apps."
+                },
+                {
+                  "question": "What is the difference between the Pro and Enterprise Plans?",
+                  "answer": "The Pro Plan is designed for teams and includes advanced collaboration and unlimited projects. The Enterprise Plan offers full customization, dedicated support, and enhanced security for larger organizations."
+                },
+                {
+                  "question": "Can I upgrade or downgrade my plan anytime?",
+                  "answer": "Yes, you can easily upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle."
+                }
+              ]
+            },
+            
+              "cta": {
+                "title": "Ready to Simplify Your Workflow?",
+                "text": "Join thousands of teams and individuals who trust ChronoTask to keep them on track.",
+                "buttonText": "Start Your Free Trial Now"
+              },
+           
+  "footer": {
+    "brand": {
+      "logoText": "TASK MASTER",
+      "tagline": "Your Partner in Smarter Task Management."
+    },
+    "pages": [
+      { "label": "About Us", "link": "#about" },
+      { "label": "Features", "link": "#features" },
+      { "label": "Pricing", "link": "#pricing" },
+      { "label": "Testimonials", "link": "#testimonials" },
+      { "label": "FAQs", "link": "#faqs" }
+    ],
+    "contact": {
+      "phone": "058 - 2121214",
+      "email": "welkom@bourguignonbiksenscooters.nl",
+      "address": "Voorstreek 63-65, Leeuwarden"
+    },
+    "support": [
+      { "label": "Contact Us", "link": "#contact" },
+      { "label": "Help Center", "link": "#help" },
+      { "label": "Community", "link": "#community" }
+    ],
+    "legal": [
+      { "label": "Algemene Voorwaarden", "link": "#terms" },
+      { "label": "Privacybeleid", "link": "#privacy" },
+      { "label": "Cookiebeleid", "link": "#cookies" }
+    ],
+    "social": [
+      { "icon": "/placeholder.svg?height=24&width=24", "alt": "Instagram", "link": "#instagram" },
+      { "icon": "/placeholder.svg?height=24&width=24", "alt": "Twitter", "link": "#twitter" },
+      { "icon": "/placeholder.svg?height=24&width=24", "alt": "Facebook", "link": "#facebook" }
+    ]
+  }
+}
+
+            
+          
+        
+      
+      
+    
+  

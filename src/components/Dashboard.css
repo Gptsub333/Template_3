@@ -1,0 +1,63 @@
+.dashboard {
+  padding: 32px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.dashboard-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.today-tasks {
+  flex: 1 1 100%;
+  max-width: 400px;
+  background: #ffffff;
+
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-description {
+  color: var(--text-secondary);
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.task-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.task-card {
+  padding: 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background: #f9fafb;
+}
+
+.progress-bar-container {
+  background: #e5e5e5;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0.5rem 0;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #0066ff;
+}
+
+.member-count {
+  font-size: 0.85rem;
+  color: #777;
+}
